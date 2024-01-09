@@ -30,6 +30,7 @@ Search the web for a Computer-Assisted Language Learning (CALL) application that
 - whether or not the app has the task of processing well-formed (i.e., native) language, language produced by learners, or both. <br>
 Finally, speculate on which of the language technologies we have covered in class might be used in the CALL application’s language processing pipeline. Examples of technology we have covered include dialogue systems, spell checking, language models, sentence segmentation, tokenization, POS tagging, parsing, and automatic speech recognition. <br>
 
+**Solutions** <br>
 Name: **Duolinguo** <br>
 Type: **Commercial** <br>
 **Target users**: young people between 16 to 22 years old who wish to make learning a new language (Ch Daniel, 2024). <br>
