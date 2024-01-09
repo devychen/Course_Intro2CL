@@ -30,13 +30,13 @@ Search the web for a Computer-Assisted Language Learning (CALL) application that
 - whether or not the app has the task of processing well-formed (i.e., native) language, language produced by learners, or both. <br>
 Finally, speculate on which of the language technologies we have covered in class might be used in the CALL application’s language processing pipeline. Examples of technology we have covered include dialogue systems, spell checking, language models, sentence segmentation, tokenization, POS tagging, parsing, and automatic speech recognition. <br>
 
-Name: Duolinguo <br>
-Type: Commercial <br>
-Target users: young people between 16 to 22 years old who wish to make learning a new language (Ch Daniel, 2024). <br>
-Type of language training: vocabulary spelling, listening comprehension, grammar practice, pronounciation. <br>
-Both. Duolingo primarily focuses on processing language produced by learners (namely learner generated content). The app is designed to evaluate and provide feedback on the language input provided by learners during various exercises and activities. Native language is used as a gold standard to check the input. <br>
+Name: **Duolinguo** <br>
+Type: **Commercial** <br>
+**Target users**: young people between 16 to 22 years old who wish to make learning a new language (Ch Daniel, 2024). <br>
+**Type of language training**: vocabulary spelling, listening comprehension, grammar practice, pronounciation. <br>
+**Both**. Duolingo primarily focuses on processing language produced by learners (namely learner generated content). The app is designed to evaluate and provide feedback on the language input provided by learners during various exercises and activities. Native language is used as a gold standard to check the input. <br>
 **Dialogue system** is applied by the interactive exercises embedded in an interface of simulate dialogue. <br>
-**Spell checking** is also included as part of the exercises.
+**Spell checking** is also included as part of the exercises. <br>
 **Language models** are used to understand and evaluate whether users are using the correct vocabulary, grammar and such. <br>
 **Sentence segmentation** is uses as Duolingup breaks down sentences into smaller parts for users to complete. This breaking down process naturally involves tokenization. <br>
 
