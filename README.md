@@ -36,9 +36,9 @@ Writing is not universal while language is. Writing is used to represent languag
 - Definion: A system of more or less permanent marks used to represent an utterance in such a way that it can be recovered more or less exactly without the intervention of the utterer.
 (my: A system of making permanent marks to represent spoken words so it can be recovered almost exactly without involving the speaker to be there.)
 - Three types:
-  - **_Alphabetic_**: Each character/letter represents a single sound/phoneme. Ideally has a one-to-one sound-letter/char correspondence, but multiple-one also observed. Example: English.
-  - **_Syllabic_**: Each character or symbol represents a whole syllable. Two variants: **abugida** (each family shares a common consonant but varies in vowels), **syllabary** system ().
-  - **_Logographic_**: 
+  - **_Alphabetic_**: Each character/letter represents a single sound/phoneme. Ideally has a one-to-one sound-letter/char correspondence, but multiple-one also observed. Semantic meanings not captured by or varied between letters. Example: English. 
+  - **_Syllabic_**: Each character/symbol represents a whole syllable. Two variants: **abugida** (each family shares a common consonant but varies in vowels. Example: Burmese), **syllabary** system (each syllable has a unique symbol but without systematic organisation. Example: Japanese). Focus on phenetic properties instead of semantic ones, esp. on syllabic sound patterns.
+  - **_Logographic_**: Each character/symbol represents an entire word/morpheme and carries a specific meaning. Example: Chinese. Priortise semantics over phonetics, characters has a direct representation of semantic content.
 2. **How is language encoded on computers? (bits & bytes)**  
 -  
 3. Binary and Hexadecimal System
