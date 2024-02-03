@@ -1,18 +1,18 @@
 # Assign_ICL
 
-### S1 CL and Definition
+### Section1. CL and Definition
 1. **Definition of Computational Linguistics**  
 Brings computer and languages together. The specific study of language from a computational perspective. The study of of computer systems for understanding and generating natural language.
 2. **Aims of the field**: To get computers to perform human language tasks.
 3. **Different characteristics and applications**  
 Sentimen analysis, dialogue system, speech recognition, machine translation, etc.
 4. **Different perspectives (theory, methods, tasks)**  
-- _Theory_: Describing content and format of descriptions of phenomena, including formulating abstract models/frameworks to understand underlying pricinciples governing language structures and behaviours. _Understanding_
-- _Methods_: Developing tools, procedures, formalism to facilitate NLP/ML by creating algorithms/models. _Modeling_
-- _Tasks_: applying methods to solve specific language tasks. _Utilising_
+- _**Theory**_: Describing content and format of descriptions of phenomena, including formulating abstract models/frameworks to understand underlying pricinciples governing language structures and behaviours. _Understanding_
+- _**Methods**_: Developing tools, procedures, formalism to facilitate NLP/ML by creating algorithms/models. _Modeling_
+- _**Tasks**_: applying methods to solve specific language tasks. _Utilising_
 5. **Different methodologies (rule-based, statistical approaches)**  
-- _Rule-based approaches_: Explicitly model language by defining set of linguistic rules and structures crafted by human experts. Reply on predefined sets of linguisitcs rule. Transparent, interpretable, but labour-intensive and struggle from complexity.
-- _Statistical approaches_: Implicitly model language based on patterns and probabilities derived from large datasets, leaveraging statisitcal models and ML algorithms to learn these patterns. Handles complexity, struggle from limited training data.
+- _**Rule-based** approaches_: Explicitly model language by defining set of linguistic rules and structures crafted by human experts. Reply on predefined sets of linguisitcs rule. Transparent, interpretable, but labour-intensive and struggle from complexity.
+- _**Statistical** approaches_: Implicitly model language based on patterns and probabilities derived from large datasets, leaveraging statisitcal models and ML algorithms to learn these patterns. Handles complexity, struggle from limited training data.
 - _How language is related to this_: Language is rule-govened yet shows statistical regularities. Rule-based capture explicit linguistic features, statistical embrace implicit statistical patterns. The interplay between them reflects the multidimensional nature of language in computational modeling.
 6. **Relation to General Linguistics**
 - GL is the study of human language as a universal and recognasible part of human behaviours and cognitive abilities.
@@ -20,14 +20,14 @@ Sentimen analysis, dialogue system, speech recognition, machine translation, etc
 - Approches and Outlook: GL looks at all languages' universals and principles, CL deals more specifically with the technological aspects of language processing. GL covers entirety of human languages. CL focuses on pratical applications and the development. GL - theoretical foundations, CL - real application.
 - CL can be viewed as an applied subset of GL, theoretical insights from the latter guide the CL models for practical language-specific tassks. Altogther contribute to our understanding of language.
 7. **Main subtasks in NLP (NLU, NLG)** 
-- _NLUnderstanding_: mapping given NL input into useful representations, analysing different aspects of the input: lexicon (POS tagging), morphology (lemmatization), syntax (dependency parsing), discourse (anaphora resolution), pragmatics (sentiment detection).
+- _**NLU**nderstanding_: mapping given NL input into useful representations, analysing different aspects of the input: lexicon (POS tagging), morphology (lemmatization), syntax (dependency parsing), discourse (anaphora resolution), pragmatics (sentiment detection).
   - Current applications: Virtual assistant, understand user queries, sentiment analysis
-- _NLGeneration_: producing meaning natural language text from some more abstract representation: subtle (difficult to get it right), very domain-specific (systems are tailored to particular applications/tasks: e.g. generating weather reports vs. poems).
+- _**NLG**eneration_: producing meaning natural language text from some more abstract representation: subtle (difficult to get it right), very domain-specific (systems are tailored to particular applications/tasks: e.g. generating weather reports vs. poems).
   - Current application: Virtual assistant to response
 
 
 
-### S2 Encoding Language
+### Section 2. Encoding Language
 
 **What is language**
 A structured system of communication that consists of grammar and vocabulary. Can be described with regards to phonetics, phonology, morphology, syntax, semantics, and pragmatics. <br>
@@ -36,9 +36,9 @@ Writing is not universal while language is. Writing is used to represent languag
 - Definion: A system of more or less permanent marks used to represent an utterance in such a way that it can be recovered more or less exactly without the intervention of the utterer.
 (my: A system of making permanent marks to represent spoken words so it can be recovered almost exactly without involving the speaker to be there.)
 - Three types:
-  - _Alphabetic_: Ideally has a one-to-one sound-letter/char correspondence.
-  - _Syllabic_: 
-  - _Logographic_: 
+  - **_Alphabetic_**: Each character/letter represents a single sound/phoneme. Ideally has a one-to-one sound-letter/char correspondence, but multiple-one also observed. Example: English.
+  - **_Syllabic_**: Each character or symbol represents a whole syllable. Two variants: **abugida** (each family shares a common consonant but varies in vowels), **syllabary** system ().
+  - **_Logographic_**: 
 2. **How is language encoded on computers? (bits & bytes)**  
 -  
 3. Binary and Hexadecimal System
