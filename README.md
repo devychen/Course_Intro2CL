@@ -1,6 +1,6 @@
 # Assign_ICL
 
-#### S1 CL and Definition
+### S1 CL and Definition
 1. **Definition of Computational Linguistics**  
 Brings computer and languages together. The specific study of language from a computational perspective. The study of of computer systems for understanding and generating natural language.
 2. **Aims of the field**: To get computers to perform human language tasks.
@@ -27,24 +27,33 @@ Sentimen analysis, dialogue system, speech recognition, machine translation, etc
 
 
 
-#### S2 Encoding Language
+### S2 Encoding Language
 
-**Writing Systems**
-- Alphabetic, Syllabic, Logographic 
-How is language encoded on computers? (bits & bytes) 
-Binary and Hexadecimal System 
-Binary system is base 2, using the symbols 0 and 1 01101=0∗24+1∗23+1∗22+0∗21+1∗20 =13
-Hexadecimal system is base 16, the numbers 0 to 9 and the letters A (=10) to F(=15)2are used 1 0
-0xA8E=10∗16 +8∗16 +14∗16 =2702
-Conversion: 4 positions in binary can be represented with 1 position in hexadecimal 
-ASCII
-ASCII uses 8 bits to store 256 characters, was developed for the Latin Alphabet (esp. English)
-Served as basis for future encoding systems
-You should be able to read and use the ASCII chart You should be able to discuss the necessity of a standardised coding table & the limitations of ASCII 
-Unicode
-Uses (up to) 32 bits 
-has a single representation for every character UTF-8 allows for backwards compatibility with ASCII UTF-8 allows for variable length (first bits show how many bytes are used) 
-0 ... → one byte
+**What is language**
+A structured system of communication that consists of grammar and vocabulary. Can be described with regards to phonetics, phonology, morphology, syntax, semantics, and pragmatics. <br>
+Writing is not universal while language is. Writing is used to represent language not language itself.
+1. **Writing Systems**
+- Definion: A system of more or less permanent marks used to represent an utterance in such a way that it can be recovered more or less exactly without the intervention of the utterer.
+(my: A system of making permanent marks to represent spoken words so it can be recovered almost exactly without involving the speaker to be there.)
+- Three types:
+  - _Alphabetic_: Ideally has a one-to-one sound-letter/char correspondence.
+  - _Syllabic_: 
+  - _Logographic_: 
+2. **How is language encoded on computers? (bits & bytes)**  
+-  
+3. Binary and Hexadecimal System
+- Binary system is base 2, using the symbols 0 and 1 01101=0∗24+1∗23+1∗22+0∗21+1∗20 =13
+- Hexadecimal system is base 16, the numbers 0 to 9 and the letters A (=10) to F(=15)2are used 1 0
+- 0xA8E=10∗16 +8∗16 +14∗16 =2702
+- Conversion: 4 positions in binary can be represented with 1 position in hexadecimal 
+4. ASCII
+- ASCII uses 8 bits to store 256 characters, was developed for the Latin Alphabet (esp. English)
+- Served as basis for future encoding systems
+- You should be able to read and use the ASCII chart You should be able to discuss the necessity of a standardised coding table & the limitations of ASCII 
+5. Unicode
+- Uses (up to) 32 bits
+- has a single representation for every character UTF-8 allows for backwards compatibility with ASCII UTF-8 allows for variable length (first bits show how many bytes are used)
+- 0 ... → one byte
 110... → two bytes (following: 10..) ... 
 You should be able to discuss the advantages and limitations of unicode 
 
