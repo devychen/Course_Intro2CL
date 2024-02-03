@@ -15,16 +15,17 @@ Sentimen analysis, dialogue system, speech recognition, machine translation, etc
 - _Statistical approaches_: Implicitly model language based on patterns and probabilities derived from large datasets, leaveraging statisitcal models and ML algorithms to learn these patterns. Handles complexity, struggle from limited training data.
 - _How language is related to this_: Language is rule-govened yet shows statistical regularities. Rule-based capture explicit linguistic features, statistical embrace implicit statistical patterns. The interplay between them reflects the multidimensional nature of language in computational modeling.
 6. **Relation to General Linguistics**
-- GL is the study of human language as a universal and recogniasble part of human behaviours and cognitive abilities.
+- GL is the study of human language as a universal and recognasible part of human behaviours and cognitive abilities.
 - Common foundation in exploration of language
-- Approches and Outlook: GL looks at language universals and principles which apply to all languages, CL deals more specifically with the technological aspects of language processing. GL covers entirety of human languages. CL focuses on pratical applications and the development. GL - theoretical foundations, CL - real application.
+- Approches and Outlook: GL looks at all languages' universals and principles, CL deals more specifically with the technological aspects of language processing. GL covers entirety of human languages. CL focuses on pratical applications and the development. GL - theoretical foundations, CL - real application.
 - CL can be viewed as an applied subset of GL, theoretical insights from the latter guide the CL models for practical language-specific tassks. Altogther contribute to our understanding of language.
 7. **Main subtasks in NLP (NLU, NLG)** 
-- NLU
-- NLG
+- NLU: mapping given NL input into useful representations, analysing different aspects of the input: lexicon (POS tagging), morphology (lemmatization), syntax (dependency parsing), discourse (anaphora resolution), pragmatics (sentiment detection).
+- NLG: producing meaning natural language text from some more abstract representation: subtle (difficult to get it right), very domain-specific (systems are tailored to particular applications/tasks: e.g. generating weather reports vs. poems).
 
-S2 Encoding Language 
-Writing Systems 
+
+**S2 Encoding Language**
+**Writing Systems**
 - Alphabetic, Syllabic, Logographic 
 How is language encoded on computers? (bits & bytes) 
 Binary and Hexadecimal System 
