@@ -46,7 +46,7 @@ Writing is not universal while language is. Writing is used to represent languag
 3. Binary and Hexadecimal System
 - Binary system (2 digits. Decimal - $1 10 10^2$), using the symbols 0 and 1. Leftmost bit most significant (Big Endian notation)
   - Binary to decimal: 01101 = $0 * 2^4 + 1 * 2^3 + 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 13$
-  - Decimal to binary: 9 - $9/2 = 4 % 1$; $4/2 = 2 \% 0$; $2/2 = 1 \% 0$; $1/2 = 0 \% 1$
+  - Decimal to binary (Check remainders):  $9/2 = 4 % 1$; $4/2 = 2 % 0$; $2/2 = 1 % 0$; $1/2 = 0 % 1$
 - Hexadecimal system (16 digits), the numbers 0 to 9 and the letters A (=10) to F(=15)2 are used 1 0
 - 0xA8E=10∗16 +8∗16 +14∗16 =2702
 - Conversion: 4 positions in binary can be represented with 1 position in hexadecimal 
