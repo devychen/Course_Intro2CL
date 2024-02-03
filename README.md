@@ -33,12 +33,13 @@ Sentimen analysis, dialogue system, speech recognition, machine translation, etc
 A structured system of communication that consists of grammar and vocabulary. Can be described with regards to phonetics, phonology, morphology, syntax, semantics, and pragmatics. <br>
 Writing is not universal while language is. Writing is used to represent language not language itself.
 1. **Writing Systems**
-- Definion: A system of more or less permanent marks used to represent an utterance in such a way that it can be recovered more or less exactly without the intervention of the utterer.
-(my: A system of making permanent marks to represent spoken words so it can be recovered almost exactly without involving the speaker to be there.)
+- Definion: A system of more or less permanent marks used to represent an utterance in such a way that it can be recovered more or less exactly without the intervention of the utterer. (My: A system of making permanent marks to represent spoken words so it can be recovered almost exactly without involving the speaker to be there.)
 - Three types:
-  - **_Alphabetic_**: Each character/letter represents a single sound/phoneme. Ideally has a one-to-one sound-letter/char correspondence, but multiple-one also observed. Semantic meanings not captured by or varied between letters. Example: English. 
-  - **_Syllabic_**: Each character/symbol represents a whole syllable. Two variants: **abugida** (each family shares a common consonant but varies in vowels. Example: Burmese), **syllabary** system (each syllable has a unique symbol but without systematic organisation. Example: Japanese). Focus on phenetic properties instead of semantic ones, esp. on syllabic sound patterns.
-  - **_Logographic_**: Each character/symbol represents an entire word/morpheme and carries a specific meaning. Example: Chinese. Priortise semantics over phonetics, characters has a direct representation of semantic content.
+  - **_Alphabetic_**: Each character/letter represents a single sound/phoneme. Ideally has a one-to-one sound-letter/char correspondence, but multiple-one also observed. Semantic meanings not captured by or varied between letters. In this system, characters could represent all sounds (vowels and consonants) as in English, IPA, or in some cases consonants only (also called **_Abjads_**) such as in Hebrew, Arabic.
+  - **_Syllabic_**: Each character/symbol represents a whole syllable. Two variants: **abugida** (each family shares a common consonant but varies in vowels. Example: Burmese), **syllabary** system (each syllable has a unique symbol but without systematic organisation. Example: Japanese). This system focuses on phenetic properties instead of semantic ones, esp. on syllabic sound patterns.
+  - **_Logographic_**: Each character/symbol represents an entire word/morpheme and carries a specific meaning. Example: Chinese. This system priortises semantics over phonetics, characters has a direct representation of semantic content.
+    - A logograph represents a unity of meaning
+  - **_Hybrid_**: Combines elements of different systems. Individual alphabetic chars could form the syllabic chatacres togther. Example: Korean, which has a blend of all three (alphabetic, syllabic, logographic) elements. This system keeps a balance and flexibility of phonetic and semantic properties.
 2. **How is language encoded on computers? (bits & bytes)**  
 -  
 3. Binary and Hexadecimal System
