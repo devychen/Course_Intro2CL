@@ -38,13 +38,14 @@ Writing is not universal while language is. Writing is used to represent languag
   - **_Alphabetic_**: Each character/letter represents a single sound/phoneme. Ideally has a one-to-one sound-letter/char correspondence, but multiple-one also observed. Semantic meanings not captured by or varied between letters. In this system, characters could represent all sounds (vowels and consonants) as in English, IPA, or in some cases consonants only (also called **_Abjads_**) such as in Hebrew, Arabic.
   - **_Syllabic_**: Each character/symbol represents a whole syllable. Two variants: **abugida** (each family shares a common consonant but varies in vowels. Example: Burmese), **syllabary** system (each syllable has a unique symbol but without systematic organisation. Example: Japanese). This system focuses on phenetic properties instead of semantic ones, esp. on syllabic sound patterns.
   - **_Logographic_**: Each character/symbol represents an entire word/morpheme and carries a specific meaning. Example: Chinese. This system priortises semantics over phonetics, characters has a direct representation of semantic content.
-    - A logograph represents a unity of meaning
+    - A logograph: a symbol represents a unity of meaning (as opposed to a unit of sound - phoneme).
   - **_Hybrid_**: Combines elements of different systems. Individual alphabetic chars could form the syllabic chatacres togther. Example: Korean, which has a blend of all three (alphabetic, syllabic, logographic) elements. This system keeps a balance and flexibility of phonetic and semantic properties.
+  - * **_Emojis_** are not a writing system as they do not represents sound/meaning pairings in any language but emotions.
 2. **How is language encoded on computers? (bits & bytes)**  
 -  
 3. Binary and Hexadecimal System
-- Binary system is base 2, using the symbols 0 and 1 01101=0∗24+1∗23+1∗22+0∗21+1∗20 =13
-- Hexadecimal system is base 16, the numbers 0 to 9 and the letters A (=10) to F(=15)2are used 1 0
+- Binary system (2 digits, 2^0 2^1 2^2 2^3. Decimal - 1 10 10^2), using the symbols 0 and 1 01101=0∗24+1∗23+1∗22+0∗21+1∗20 =13
+- Hexadecimal system (16 digits), the numbers 0 to 9 and the letters A (=10) to F(=15)2are used 1 0
 - 0xA8E=10∗16 +8∗16 +14∗16 =2702
 - Conversion: 4 positions in binary can be represented with 1 position in hexadecimal 
 4. ASCII
@@ -53,10 +54,11 @@ Writing is not universal while language is. Writing is used to represent languag
 - You should be able to read and use the ASCII chart You should be able to discuss the necessity of a standardised coding table & the limitations of ASCII 
 5. Unicode
 - Uses (up to) 32 bits
-- has a single representation for every character UTF-8 allows for backwards compatibility with ASCII UTF-8 allows for variable length (first bits show how many bytes are used)
-- 0 ... → one byte
-110... → two bytes (following: 10..) ... 
-You should be able to discuss the advantages and limitations of unicode 
+- has a single representation for every character UTF-8 allows for backwards compatibility with ASCII
+- UTF-8 allows for variable length (first bits show how many bytes are used)
+  - 0 ... → one byte
+  - 110... → two bytes (following: 10..) ... 
+- You should be able to discuss the advantages and limitations of unicode 
 
 
 S3: Writers’ Aids 
