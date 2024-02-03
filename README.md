@@ -1,7 +1,7 @@
 # Assign_ICL
 
 **S1 CL and Definition**
-1. **Defining of Computational Linguistics**  
+1. **Definition of Computational Linguistics**  
 Brings computer and languages together. The specific study of language from a computational perspective. The study of of computer systems for understanding and generating natural language.
 2. **Aims of the field**: To get computers to perform human language tasks.
 3. **Different characteristics and applications**  
