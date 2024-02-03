@@ -1,6 +1,6 @@
 # Assign_ICL
 
-**S1 CL and Definition**
+#### S1 CL and Definition
 1. **Definition of Computational Linguistics**  
 Brings computer and languages together. The specific study of language from a computational perspective. The study of of computer systems for understanding and generating natural language.
 2. **Aims of the field**: To get computers to perform human language tasks.
@@ -24,7 +24,8 @@ Sentimen analysis, dialogue system, speech recognition, machine translation, etc
 - NLG: producing meaning natural language text from some more abstract representation: subtle (difficult to get it right), very domain-specific (systems are tailored to particular applications/tasks: e.g. generating weather reports vs. poems).
 
 
-**S2 Encoding Language**
+#### S2 Encoding Language
+
 **Writing Systems**
 - Alphabetic, Syllabic, Logographic 
 How is language encoded on computers? (bits & bytes) 
