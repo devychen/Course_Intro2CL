@@ -1,20 +1,21 @@
 # Assign_ICL
 
 **S1 CL and Definition**
-1. Defining of Computational Linguistics
+1. **Defining of Computational Linguistics**  
 Brings computer and languages together. The specific study of language from a computational perspective. The study of of computer systems for understanding and generating natural language.
-2. Aims of the field
+2. **Aims of the field**  
 To get computers to perform human language tasks.
-4. Different characteristics and applications
+3. **Different characteristics and applications**  
 Sentimen analysis, dialogue system, speech recognition, machine translation.
-6. Different perspectives (theory, methods, tasks)
+4. **Different perspectives (theory, methods, tasks)**  
 - _Theory_: Describing content and format of descriptions of phenomena, including formulating abstract models/frameworks to understand underlying pricinciples governing language structures and behaviours. _Understanding_
 - _Methods_: Developing tools, procedures, formalism to facilitate NLP/ML by creating algorithms/models. _Modeling_
 - _Tasks_: applying methods to solve specific language tasks. _Utilising_
-8. Different methodologies (rule-based, statistical approaches)
-- Rule-based: 
-9. Relation to General Linguistics
-10. Main subtasks in NLP (NLU, NLG) 
+5. **Different methodologies (rule-based, statistical approaches)**  
+- _Rule-based approaches_: Explicitly model language by defining set of linguistic rules and structures.
+- _Statistical approaches_: Implicitly model language by 
+6. Relation to General Linguistics
+7. Main subtasks in NLP (NLU, NLG) 
 
 
 S2 Encoding Language 
