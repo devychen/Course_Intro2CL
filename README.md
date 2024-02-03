@@ -3,20 +3,25 @@
 **S1 CL and Definition**
 1. **Defining of Computational Linguistics**  
 Brings computer and languages together. The specific study of language from a computational perspective. The study of of computer systems for understanding and generating natural language.
-2. **Aims of the field**  
-To get computers to perform human language tasks.
+2. **Aims of the field**: To get computers to perform human language tasks.
 3. **Different characteristics and applications**  
-Sentimen analysis, dialogue system, speech recognition, machine translation.
+Sentimen analysis, dialogue system, speech recognition, machine translation, etc.
 4. **Different perspectives (theory, methods, tasks)**  
 - _Theory_: Describing content and format of descriptions of phenomena, including formulating abstract models/frameworks to understand underlying pricinciples governing language structures and behaviours. _Understanding_
 - _Methods_: Developing tools, procedures, formalism to facilitate NLP/ML by creating algorithms/models. _Modeling_
 - _Tasks_: applying methods to solve specific language tasks. _Utilising_
 5. **Different methodologies (rule-based, statistical approaches)**  
-- _Rule-based approaches_: Explicitly model language by defining set of linguistic rules and structures.
-- _Statistical approaches_: Implicitly model language by 
-6. Relation to General Linguistics
-7. Main subtasks in NLP (NLU, NLG) 
-
+- _Rule-based approaches_: Explicitly model language by defining set of linguistic rules and structures crafted by human experts. Reply on predefined sets of linguisitcs rule. Transparent, interpretable, but labour-intensive and struggle from complexity.
+- _Statistical approaches_: Implicitly model language based on patterns and probabilities derived from large datasets, leaveraging statisitcal models and ML algorithms to learn these patterns. Handles complexity, struggle from limited training data.
+- _How language is related to this_: Language is rule-govened yet shows statistical regularities. Rule-based capture explicit linguistic features, statistical embrace implicit statistical patterns. The interplay between them reflects the multidimensional nature of language in computational modeling.
+6. **Relation to General Linguistics**
+- GL is the study of human language as a universal and recogniasble part of human behaviours and cognitive abilities.
+- Common foundation in exploration of language
+- Approches and Outlook: GL looks at language universals and principles which apply to all languages, CL deals more specifically with the technological aspects of language processing. GL covers entirety of human languages. CL focuses on pratical applications and the development. GL - theoretical foundations, CL - real application.
+- CL can be viewed as an applied subset of GL, theoretical insights from the latter guide the CL models for practical language-specific tassks. Altogther contribute to our understanding of language.
+7. **Main subtasks in NLP (NLU, NLG)** 
+- NLU
+- NLG
 
 S2 Encoding Language 
 Writing Systems 
