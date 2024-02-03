@@ -20,11 +20,14 @@ Sentimen analysis, dialogue system, speech recognition, machine translation, etc
 - Approches and Outlook: GL looks at all languages' universals and principles, CL deals more specifically with the technological aspects of language processing. GL covers entirety of human languages. CL focuses on pratical applications and the development. GL - theoretical foundations, CL - real application.
 - CL can be viewed as an applied subset of GL, theoretical insights from the latter guide the CL models for practical language-specific tassks. Altogther contribute to our understanding of language.
 7. **Main subtasks in NLP (NLU, NLG)** 
-- NLU: mapping given NL input into useful representations, analysing different aspects of the input: lexicon (POS tagging), morphology (lemmatization), syntax (dependency parsing), discourse (anaphora resolution), pragmatics (sentiment detection).
-- NLG: producing meaning natural language text from some more abstract representation: subtle (difficult to get it right), very domain-specific (systems are tailored to particular applications/tasks: e.g. generating weather reports vs. poems).
+- _NLUnderstanding_: mapping given NL input into useful representations, analysing different aspects of the input: lexicon (POS tagging), morphology (lemmatization), syntax (dependency parsing), discourse (anaphora resolution), pragmatics (sentiment detection).
+  - Current applications: Virtual assistant, understand user queries, sentiment analysis
+- _NLGeneration_: producing meaning natural language text from some more abstract representation: subtle (difficult to get it right), very domain-specific (systems are tailored to particular applications/tasks: e.g. generating weather reports vs. poems).
+  - Current application: Virtual assistant to response
 
 
-#### S2 Encoding Language
+
+#### S2 Encoding Language
 
 **Writing Systems**
 - Alphabetic, Syllabic, Logographic 
