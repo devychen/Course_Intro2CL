@@ -44,8 +44,9 @@ Writing is not universal while language is. Writing is used to represent languag
 2. **How is language encoded on computers? (bits & bytes)**  
 -  
 3. Binary and Hexadecimal System
-- Binary system (2 digits, 2^0 2^1 2^2 2^3. Decimal - 1 10 10^2), using the symbols 0 and 1 01101=0∗24+1∗23+1∗22+0∗21+1∗20 =13
-- Hexadecimal system (16 digits), the numbers 0 to 9 and the letters A (=10) to F(=15)2are used 1 0
+- Binary system (2 digits, 1 2 4 8. Decimal - 1 10 10^2), using the symbols 0 and 1. Leftmost bit most significant (Big Endian notation)
+  - 01101 = $0 * 2^4 + 1 * 2^3 + 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 13$
+- Hexadecimal system (16 digits), the numbers 0 to 9 and the letters A (=10) to F(=15)2 are used 1 0
 - 0xA8E=10∗16 +8∗16 +14∗16 =2702
 - Conversion: 4 positions in binary can be represented with 1 position in hexadecimal 
 4. ASCII
