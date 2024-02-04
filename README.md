@@ -39,16 +39,16 @@ Writing is not universal while language is. Writing is used to represent languag
   - **_Syllabic_**: Each character/symbol represents a whole syllable. Two variants: **abugida** (each family shares a common consonant but varies in vowels. Example: Burmese), **syllabary** system (each syllable has a unique symbol but without systematic organisation. Example: Japanese). This system focuses on phenetic properties instead of semantic ones, esp. on syllabic sound patterns.
   - **_Logographic_**: Each character/symbol represents an entire word/morpheme and carries a specific meaning. Example: Chinese. This system priortises semantics over phonetics, characters has a direct representation of semantic content.
     - A logograph: a symbol represents a unity of meaning (as opposed to a unit of sound - phoneme).
-  - **_Hybrid_**: Combines elements of different systems. Individual alphabetic chars could form the syllabic chatacres togther. Example: Korean, which has a blend of all three (alphabetic, syllabic, logographic) elements. This system keeps a balance and flexibility of phonetic and semantic properties.
+  - **_Hybrid_**: Combines elements of different systems. Individual alphabetic chars could form the syllabic characters togther. Example: Korean, which has a blend of all three (alphabetic, syllabic, logographic) elements. This system keeps a balance and flexibility of phonetic and semantic properties.
   - * **_Emojis_** are not a writing system as they do not represents sound/meaning pairings in any language but emotions.
 2. **How is language encoded on computers? (bits & bytes)**  
--  
+-  Information on computer is stored in bits, in the context of writing systems, a particular character will have a unique pattern of numbers represented by bit sequences. With 8 bits (a single byte) and each byte storing a separate character, we then can represent $2^8$ characters.
 3. Binary and Hexadecimal System
-- Binary system (2 digits. Decimal - $1 10 10^2$), using the symbols 0 and 1. Leftmost bit most significant (Big Endian notation)
+- Binary system (2 digits. Decimal - $1 10 10^2$), using 0 and 1. Leftmost bit being the most significant (Big Endian notation)
   - Binary to decimal: 01101 = $0 * 2^4 + 1 * 2^3 + 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 13$
-  - Decimal to binary (Check remainders):  $9/2 = 4$ %1; $4/2 = 2$ % 0; $2/2 = 1$ % 0; $1/2 = 0$ % 1
-- Hexadecimal system (16 digits), the numbers 0 to 9 and the letters A (=10) to F(=15)2 are used 1 0
-- 0xA8E=10∗16 +8∗16 +14∗16 =2702
+  - Decimal to binary (Check remainders):  $9/2 = 4$ ...%1; $4/2 = 2$ ...%0; $2/2 = 1$ ...%0; $1/2 = 0$ ...%1
+- Hexadecimal system (16 digits), using 0 ～ 9 and the letters A (=10) to F(=15).
+-   0xA8E = $10 * 16^2 + 8 * 16^1 + 14 * 16^0 = 2702$ Ox is just a prefix for hexadecimal.
 - Conversion: 4 positions in binary can be represented with 1 position in hexadecimal 
 4. ASCII
 - ASCII uses 8 bits to store 256 characters, was developed for the Latin Alphabet (esp. English)
