@@ -1,5 +1,7 @@
 # Assign_ICL
 
+Grade: 1.3 結課大吉！(23 Feb 2024)
+
 [Regex practice](https://regexr.com/) <br>
 
 ### Section1. CL and Definition
