@@ -108,16 +108,16 @@ Writing is not universal while language is. Writing is used to represent languag
 1. **How computers learn**
 2. **Feature vectors**
 3. **Training, Testing, Validation Set**
-4. **Supervised vs. Unsupervised ML** 
-Supervised: Labeled data through expert annotators. 
-1) Split the data
-2) train the model
-3) test and cross-validate
-4) evaluate 
-Unsupervised: 
-1) feature extraction
-2) apply algorithm on dataset
-3) inspect resulting structure 
+4. **Supervised vs. Unsupervised ML**
+- Supervised: Labeled data through expert annotators. 
+  1) Split the data
+  2) Train the model
+  3) Test and cross-validate
+  4) Evaluate 
+- Unsupervised: 
+  1) Feature extraction
+  2) Apply algorithm on dataset
+  3) Inspect resulting structure 
 5. **How to evaluate a model** 
 - Recall
 - Precision
@@ -139,132 +139,141 @@ Unsupervised:
 
 ### Section 6. ASR
 
-Brief introduction to speech (phones and phonemes, vocal tract)
-How speech is represented with computers
-Different speech processing applications
-Which ones can you think of?
-What task does each one perform?
-What language technology components are required in the pipeline to make these applications work?
-4. Automatic speech recognition
-Inputs/Outputs
-Why ASR is a difficult problem
-Noisy channel model and application to ASR
-System architecture of ‘classical’ ASR system; role of components (acoustic model, lexicon, language model, search lattice, decoder)
-Purpose of language model
-Using a language model to rank different candidates (“wooden boats”)
-A very high-level look at probabilities (coin flipping) and n-gram language models
-Steps in training a speech recogniser (dataset requirements, feature extraction, training, testing, evaluation, error analysis)
+1. Brief introduction to **speech** (phones and phonemes, vocal tract)
+2. **How speech is represented with computers**
+3. Different **speech processing applications**
+- Which ones can you think of?
+- What task does each one perform?
+- What language technology components are required in the pipeline to make these applications work?
+4. **Automatic speech recognition**
+5. **Inputs/Outputs**
+6. **Why ASR is a difficult problem**
+7. **Noisy channel model** and **application to ASR**
+8. **System architecture** of ‘classical’ ASR system. Role of components:
+- Acoustic model
+- Lexicon
+- Language model
+- Search lattice
+- Decoder
+9. **Purpose of language model**
+- Using a language model to rank different candidates (“wooden boats”)
+- A very high-level look at probabilities (coin flipping) and n-gram language models
+10. **Steps in training a speech recogniser**
+- Dataset requirements, feature extraction, training, testing, evaluation, error analysis
 
 
 
 ### S7 Text Search
 
-Why search can be challenging, with example(s)
-Different search tasks (hint: Google, Quora, Netflix)
-Key terms, such as information need, intent, query
-Formulating queries: general user vs. specialist user
-Regular expression
-Definition 
-Basic building blocks:
-Literals
-Wild cards
-Escaping
-Modes (/g, or /i)
-Character sets and ranges
-Quantified repetition
-Groups using parentheses
-Anchors
-Multiple Documents
-Examples of applications searching multiple documents
-What document indexing is, why it is important, and different approaches (term-by-document matrix, inverted indices list)
-Evaluating search quality
-User experience surveys
-Objective user interaction logs
-Precision, Recall (and challenges with computing recall), F-measure
-An understanding of the limitations of these measures in the context of Text Search
-An understanding of why Ranking is important in text search
+1. Why search can be challenging, with example(s)
+2. Different search tasks (hint: Google, Quora, Netflix)
+3. Key terms:
+- **Information need**
+- **Intent**
+- **Query**
+4. **Formulating querie**s: general user vs. specialist user
+5. **Regular expression**
+- Definition 
+- Basic building blocks:
+  - Literals
+  - Wild cards
+  - Escaping
+  - Modes (/g, or /i)
+  - Character sets and ranges
+  - Quantified repetition
+  - Groups using parentheses
+  - Anchors
+6. **Multiple Documents**
+- Examples of applications searching multiple documents
+- What document indexing is, why it is important, and different approaches (term-by-document matrix, inverted indices list)
+7. **Evaluating search quality**
+- User experience surveys
+- Objective user interaction logs
+- Precision, Recall (and challenges with computing recall), F-measure
+8. An understanding of the **limitations of these measures** in the context of Text Search
+9. An understanding of **why Ranking is important in text search**
 
 
 
 ### Section 8. CALL
 
-Characteristics of learner language (in contrast to native-like language) and implications for NLP technology
-Know what an Intelligent Tutoring System (ITS) is 
-Be able to talk about NLP applications in the context of ITS for language learning
-NLP applied to well-formed language (e.g. FLAIR)
-NLP applied to malformed learner language
+1. Characteristics of learner language (in contrast to native-like language) and implications for NLP technology
+2. Know what an Intelligent Tutoring System (ITS) is
+3. Be able to talk about NLP applications in the context of ITS for language learning
+4. NLP applied to well-formed language (e.g. FLAIR)
+5. NLP applied to malformed learner language <br>
 For each, be able to describe:
-The needs of the users (e.g., input, corrective feedback)
-How NLP can be used in an ITS to meet those needs
-Using knowledge from other lectures (e.g. text search), make suggestions for how to evaluate the quality of an NLP-enhanced ITS system
+- The needs of the users (e.g., input, corrective feedback)
+- How NLP can be used in an ITS to meet those needs
+- Using knowledge from other lectures (e.g. text search), make suggestions for how to evaluate the quality of an NLP-enhanced ITS system
 
 
 ### Section 9. Dialogue Systems
 
 
-Terminology
-Speech acts, common ground, turn taking, adjacency pairs
-How are these important for dialogue systems?
-Grice’s Maxims
-What are they, how are they defined?
-Why are they important in dialogue systems? What happens if they are not met?
-Task Specific Systems
+1. Terminology: Speech acts, common ground, turn taking, adjacency pairs
+- How are these important for dialogue systems?
+2. Grice’s Maxims
+- What are they
+- how are they defined?
+- Why are they important in dialogue systems? What happens if they are not met?
+3. Task Specific Systems
 Designed to help accomplish one or more specific tasks
-Intents containing slots, intent recognition
-Independent Systems
-Chatbots
-Different implementations (brute force, rule-based, corpus trained, generative)
-You should be able to explain the previously mentioned phenomena on chatbot examples (e.g. explain the rule based approach on the example of ELIZA)
+4. Intents containing slots, intent recognition
+5. Independent Systems
+6. Chatbots
+7. Different implementations (brute force, rule-based, corpus trained, generative)
+- You should be able to explain the previously mentioned phenomena on chatbot examples (e.g. explain the rule based approach on the example of ELIZA)
 How are chatbots evaluated? (Turing test, Winograd Schemas)
-POS tagging
+8. POS tagging
 Information on word type (noun, verb, etc)
-Different granularity depending on corpus
-Used to encode morphological and syntactical information of tokens, can be used to measure linguistic properties such as complexity o pronunciation
-Often prerequisite for other NLP tasks
-Methods for POS tagging
-Rule-based
-Use constraint grammars and lexicons to retrieved all candidate POS tags and the associated rules
-They each rule on input sentence and exclude POS tag if tule does not fit
-Statistical
-Input a token sequence, assign a POS tag to each token, handle ambiguity by exploring different possible sequences
-Rank each sequence by its statical probability using supervised ML
-Challenges in POS tagging
-Ambiguity
-Sometimes, various POS tags are possible (I can can a can of tuna) - context necessary
-You should be able to annotate short sequences and discuss possible ambiguities including ways to resolve the ambiguity
-Parsing
-Represent grammatical structures or relationships
-Constituency Parsing
-Constituents: Group of words forming syntactic units (e.g. NPs)
-Parsing assigns syntactic structures
-Identification of multi-word units and nested structures
-Visualisations: Trees and parentheses notation. You should be able to read & create both forms
-Challenge: Ambiguities, e.g. I saw the man with the telescope
-Dependency Parsing
-Aim: Capture the syntactic relations between words in a sentences using directed grammatical relation between pairs of words
-Relation have governor (head) and dependent 
-Challenges: Attachment and corrpdinasion ambiguity
+9. Different granularity depending on corpus
+- Used to encode morphological and syntactical information of tokens
+- Can be used to measure linguistic properties such as complexity o pronunciation
+- Often prerequisite for other NLP tasks
+10. Methods for POS tagging
+- Rule-based
+  - Use constraint grammars and lexicons to retrieved all candidate POS tags and the associated rules
+  - They each rule on input sentence and exclude POS tag if tule does not fit
+- Statistical
+  - Input a token sequence, assign a POS tag to each token, handle ambiguity by exploring different possible sequences
+  - Rank each sequence by its statical probability using supervised ML
+- Challenges in POS tagging
+  - Ambiguity: Sometimes, various POS tags are possible (I can can a can of tuna) - context necessary
+- You should be able to annotate short sequences and discuss possible ambiguities including ways to resolve the ambiguity
+11. Parsing
+- Represent grammatical structures or relationships
+- Constituency Parsing
+  - Constituents: Group of words forming syntactic units (e.g. NPs)
+  - Parsing assigns syntactic structures
+  - - Identification of multi-word units and nested structures
+- Visualisations: Trees and parentheses notation. You should be able to read & create both forms
+- Challenge: Ambiguities, e.g. I saw the man with the telescope
+- Dependency Parsing
+  - Aim: Capture the syntactic relations between words in a sentences using directed grammatical relation between pairs of words
+  - Relation have governor (head) and dependent
+  - Challenges: Attachment and corrpdinasion ambiguity
 
 
 
 ### S10 LLMs
 
-Technical Aspects
-You do not need to be able to explain what neural networks are or what a transformer is, but you need to know the vocabulary!
-You should be able to discuss what was new about LLMs (one model for all, parallelisation, attention)
-Large Language models
-Applications of LLMs
-You should be able to name a few applications of LLMs
-Ethical Aspects
-Bias
-Difficulty of unbalanced, restricted, and biased corpora
-How are social biases inscribed in the data?
-Why is this problematic?
-Fine tuning
-Why is it difficult to ensure that only ‘ethical’ utterances are generated?
-How did chatbots try to solve this problem? How is it done nowadays?
-Environment impact
-You should be able to shortly discuss possible environmental impacts (also considering the large datasets, long learning etc.)
+1. Technical Aspects
+- You do not need to be able to explain what neural networks are or what a transformer is, but you need to know the vocabulary!
+- You should be able to discuss what was new about LLMs (one model for all, parallelisation, attention)
+2. Large Language models
+3. Applications of LLMs
+- You should be able to name a few applications of LLMs
+4. Ethical Aspects
+- Bias
+- Difficulty of unbalanced, restricted, and biased corpora
+- How are social biases inscribed in the data?
+- Why is this problematic?
+- Fine tuning
+- Why is it difficult to ensure that only ‘ethical’ utterances are generated?
+- How did chatbots try to solve this problem? How is it done nowadays?
+5. Environment impact
+- You should be able to shortly discuss possible environmental impacts (also considering the large datasets, long learning etc.)
 
 
 
