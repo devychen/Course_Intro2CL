@@ -5,6 +5,7 @@ Grade: 1.3 結課大吉！(23 Feb 2024)
 [Regex practice](https://regexr.com/) <br>
 
 ### Section1. CL and Definition
+
 1. **Definition of Computational Linguistics**  
 Brings computer and languages together. The specific study of language from a computational perspective. The study of of computer systems for understanding and generating natural language.
 2. **Aims of the field**: To get computers to perform human language tasks.
@@ -47,56 +48,67 @@ Writing is not universal while language is. Writing is used to represent languag
   - * **_Emojis_** are not a writing system as they do not represents sound/meaning pairings in any language but emotions.
 2. **How is language encoded on computers? (bits & bytes)**  
 -  Information on computer is stored in bits, in the context of writing systems, a particular character will have a unique pattern of numbers represented by bit sequences. With 8 bits (a single byte) and each byte storing a separate character, we then can represent $2^8$ characters.
-3. Binary and Hexadecimal System
+3. **Binary and Hexadecimal System**
 - Binary system (2 digits. Decimal - $1 10 10^2$), using 0 and 1. Leftmost bit being the most significant (Big Endian notation)
   - Binary to decimal: 01101 = $0 * 2^4 + 1 * 2^3 + 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 13$
   - Decimal to binary (Check remainders):  $9/2 = 4$ ...%1; $4/2 = 2$ ...%0; $2/2 = 1$ ...%0; $1/2 = 0$ ...%1
 - Hexadecimal system (16 digits), using 0 ～ 9 and the letters A (=10) to F(=15).
 -   0xA8E = $10 * 16^2 + 8 * 16^1 + 14 * 16^0 = 2702$ Ox is just a prefix for hexadecimal.
 - Conversion: 4 positions in binary can be represented with 1 position in hexadecimal 
-4. ASCII
+4. **ASCII**
 - ASCII uses 8 bits to store 256 characters, was developed for the Latin Alphabet (esp. English)
 - Served as basis for future encoding systems
 - You should be able to read and use the ASCII chart You should be able to discuss the necessity of a standardised coding table & the limitations of ASCII 
-5. Unicode
+5. **Unicode**
 - Uses (up to) 32 bits
 - has a single representation for every character UTF-8 allows for backwards compatibility with ASCII
 - UTF-8 allows for variable length (first bits show how many bytes are used)
   - 0 ... → one byte
   - 110... → two bytes (following: 10..) ... 
-- You should be able to discuss the advantages and limitations of unicode 
+- You should be able to discuss the advantages and limitations of unicode
 
 
-S3: Writers’ Aids 
-Spelling variation (regional differences, different genres) 
-Spelling error types (non-word, real-word errors)
-Error sources (opaque writing systems, L1 transfer, etc.) 
-Basic edit operations (I, D, S, T) 
-High-level stages in method for automatic spell checking (detection, generation, ranking) 
-Information sources for different stages: 
-Detection: word lists 
-Generation: a) rules b) list of valid words & similarity measures Ranking: explain why ranking is needed 
-Minimal String Edit Distance (concept and algorithm) 
-Operatilising string similarity with naive examples 
-Modelling string similarity after human typist operations 
-Why DAGs are useful tool for representing search space 
+### Section 3. Writers' Aids 
 
-S4: Text as Data
-What is a Corpus?
-Structured collection of texts collected with a specific question in mind. Usually contains linguistic annotation and metadata 
-What is Metadata?
-Data describing the primary, ra data (creation date, information and the speaker/writer/author, tags, ...) 
-What are Linguistic Annotation
-POS tags, sentence/word boundaries, parse trees, ... 
-TTR = #types #tokens 
-Limitations & applications of corpora 
-You should be able to discuss whether a certain corpus is appropriate for a specific research question, what the steps would be to collect data, what kind of (meta) data would be necessary to answer a certain RQ... 
+1. **Spelling variation** (regional differences, different genres)
+2. **Spelling error types** (non-word, real-word errors)
+3. **Error sources** (opaque writing systems, L1 transfer, etc.)
+4. **Basic edit operations** (I, D, S, T)
+5. **High-level stages** in method for automatic spell checking (detection, generation, ranking). Information sources for different stages:
+- Detection: word lists
+- Generation: a) rules b) list of valid words & similarity measures
+- Ranking: explain why ranking is needed 
+6. **Minimal String Edit Distance** (concept and algorithm)
+7. **Operatilising string similarity** with naive examples
+8. **Modelling string similarity** after human typist operations
+9. **Why DAGs are useful tool** for representing search space 
 
-S5 Text Classification
-How computers learn 
-Feature vectors 
-Training, Testing, Validation Set 
-Supervised vs. Unsupervised ML 
+
+### Section 4. Text as Data
+
+1. **What is a Corpus?**
+- Structured collection of texts collected with a specific question in mind. Usually contains linguistic annotation and metadata 
+2. **What is Metadata?**
+- Data describing the primary, ra data (creation date, information and the speaker/writer/author, tags, ...) 
+3. **What are Linguistic Annotation**
+- POS tags
+- Sentence/word boundaries
+- Parse trees, ...
+- **TTR** = #types #tokens 
+4. **Limitations & applications** of corpora 
+5. You should be able to discuss:
+- Whether a certain corpus is **appropriate** for a specific research question
+- What would be **the steps to collect data**
+- What kind of (meta) data would be necessary to answer a certain RQ... 
+
+
+
+### Section 5. Text Classification
+
+1. **How computers learn**
+2. **Feature vectors**
+3. **Training, Testing, Validation Set**
+4. **Supervised vs. Unsupervised ML** 
 Supervised: Labeled data through expert annotators. 
 1) Split the data
 2) train the model
@@ -106,16 +118,27 @@ Unsupervised:
 1) feature extraction
 2) apply algorithm on dataset
 3) inspect resulting structure 
-How to evaluate a model
-Recall, Precision, Accuracy, TNR
-How are these calculated?
-When should you use which measure? → Is it more important to catch everyone with the disease and maybe treat healthy patients, or is it better to miss some patients but be sure not to treat healthy people? Is it better to censor non-harmful tweets and make sure to censor every hate speech tweet ... ? 
-4. NLP segmentation
-Preprocessing
-Tokenisation: What is a token, what are the challenges (contracted forms, hyphenated forms, periods (St.), special characters, NER, …)
-Sentence segmentation: How are sentences defined, what are the challenges in sentence segmentation (esp. with regards to other languages than English)
+5. **How to evaluate a model** 
+- Recall
+- Precision
+- Accuracy
+- TNR
+- How are these calculated?
+- When should you use which measure?
+  - Is it more important to catch everyone with the disease and maybe treat healthy patients, or is it better to miss some patients but be sure not to treat healthy people? Is it better to censor non-harmful tweets and make sure to censor every hate speech tweet ... ? 
+4. **NLP segmentation**
+- Preprocessing
+- Tokenisation
+  - What is a token
+  - What are the challenges (contracted forms, hyphenated forms, periods (St.), special characters, NER, …)
+- Sentence segmentation:
+  - How are sentences defined
+  - What are the challenges in sentence segmentation (esp. with regards to other languages than English)
 
-S6 ASR
+
+
+### Section 6. ASR
+
 Brief introduction to speech (phones and phonemes, vocal tract)
 How speech is represented with computers
 Different speech processing applications
@@ -133,7 +156,9 @@ A very high-level look at probabilities (coin flipping) and n-gram language mode
 Steps in training a speech recogniser (dataset requirements, feature extraction, training, testing, evaluation, error analysis)
 
 
-S7 Text Search
+
+### S7 Text Search
+
 Why search can be challenging, with example(s)
 Different search tasks (hint: Google, Quora, Netflix)
 Key terms, such as information need, intent, query
@@ -159,7 +184,10 @@ Precision, Recall (and challenges with computing recall), F-measure
 An understanding of the limitations of these measures in the context of Text Search
 An understanding of why Ranking is important in text search
 
-S8 CALL
+
+
+### Section 8. CALL
+
 Characteristics of learner language (in contrast to native-like language) and implications for NLP technology
 Know what an Intelligent Tutoring System (ITS) is 
 Be able to talk about NLP applications in the context of ITS for language learning
@@ -171,7 +199,9 @@ How NLP can be used in an ITS to meet those needs
 Using knowledge from other lectures (e.g. text search), make suggestions for how to evaluate the quality of an NLP-enhanced ITS system
 
 
-S9 Dialogue Systems
+### Section 9. Dialogue Systems
+
+
 Terminology
 Speech acts, common ground, turn taking, adjacency pairs
 How are these important for dialogue systems?
@@ -214,7 +244,11 @@ Dependency Parsing
 Aim: Capture the syntactic relations between words in a sentences using directed grammatical relation between pairs of words
 Relation have governor (head) and dependent 
 Challenges: Attachment and corrpdinasion ambiguity
-S10 LLMs
+
+
+
+### S10 LLMs
+
 Technical Aspects
 You do not need to be able to explain what neural networks are or what a transformer is, but you need to know the vocabulary!
 You should be able to discuss what was new about LLMs (one model for all, parallelisation, attention)
